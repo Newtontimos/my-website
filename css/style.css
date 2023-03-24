@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=Orbitron:wght@400;800&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Rubik:ital,wght@0,500;1,500;1,700&display=swap");
+body {
+  font-family: "Orbitron", sans-serif;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700 !important;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+.nav-link {
+  color: #191825 !important;
+  font-weight: bold !important;
+  font-size: 1.1rem;
+}
+
+.nav-link:hover {
+  color: orangered !important;
+  font-weight: bold !important;
+  font-size: 1.1rem;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  color: #191825 !important;
+  font-weight: bold;
+}
+
+.navbar-brand span {
+  color: orangered;
+}
+
+.btn {
+  padding: 10px 22px;
+}
+
+/*Navbar toggler*/
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 69, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-color: red;
+}
+
+/*Hero*/
+.hero-section {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/people.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-section h1 {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.hero-section .btn-main {
+  width: 230px;
+  background-color: orangered;
+  color: white;
+  font-size: 1.3rem;
+  border: none;
+}
+
+.hero-section .btn-main:hover {
+  width: 230px;
+  background-color: transparent;
+  color: orangered;
+  font-size: 1.3rem;
+  border: 2px solid orangered;
+}
+
+.header_one {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  font-size: 3rem !important;
+  line-height: 1.4 !important;
+}
+
+/*About Us*/
+.about-us {
+  min-height: 70vh;
+}
+.divider {
+  width: 70px;
+  height: 8px;
+  background-color: orangered;
+  margin: 10px auto;
+}
+
+/* services*/
+
+.services {
+  background-color: #fdfdfd;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card .fas {
+  font-size: 60px;
+  padding-top: 20px;
+  color: orangered;
+}
+
+/* counter*/
+.mycounter {
+  min-height: 50vh;
+  background: linear-gradient(rgba(0, 0, 50, 0.9), rgba(0, 0, 50, 0.9)),
+    url("../images/man.jpg");
+  display: flex;
+  align-items: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.mycounter .card {
+  background-color: transparent;
+  color: #fff;
+}
+
+/*Gallary*/
+
+.gallery {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 50, 0.9), rgba(0, 0, 50, 0.9)),
+    url("../images/man.jpg");
+  display: flex;
+  align-items: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.text {
+  transition: 5s ease-in-out;
+}
+
+.text:hover {
+  filter: brightness();
+}
+
+/* contact */
+
+input {
+  height: 50px;
+  border: 1px solid black !important;
+}
+
+/*testimoial */
+.testimonial_person .person {
+  display: flex;
+  align-items: center;
+}
+.testimonial_person img {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+}
+
+.testimonial_person p {
+  text-align: justify;
+  padding: 0 25px;
+}
+.star {
+  margin: 0 20px;
+}
+.star i {
+  color: orange;
+  padding: 0 3px;
+}
+
+/*Footer*/
+
+.foot_top {
+  background: linear-gradient(rgba(0, 0, 50, 0.9), rgba(0, 0, 50, 0.9));
+  color: #fff;
+}
+
+.foot_top h5 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 20px;
+}
+.social {
+  float: right;
+}
+.social i {
+  color: #fff;
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+.copyright {
+  text-align: center;
+  background-color: #15133c;
+  color: #fdfdfd;
+  padding: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
